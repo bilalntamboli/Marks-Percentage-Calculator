@@ -1,0 +1,75 @@
+/* codded by bilal tamboli */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+
+body{
+    font-family: 'Newsreader', serif;
+    background-image: linear-gradient(to right top, #e32c5c, #b42e57, #852e4c, #592a3c, #302228);
+
+}
+
+
+.main{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    text-align: center;
+
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+    font-weight: 700;
+    font-size: larger;
+    border-radius: 10px;
+    
+  }
+  .button{
+    width: 50%;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #EE1133;
+    outline: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+
+  input:hover{
+    background-color: rgba(115, 126, 125, 0.959);
+    color: black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    
+  }
+  form{
+      border-style: solid;
+      padding: 30px 13px 30px 15px;
+  }
+  label{
+      font-size: 1.5rem;
+  }
+  footer{
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: white;
+      text-align: center;
+      padding-bottom: 10px;
+  }
+  footer:hover{
+      color: rgb(219, 181, 181);
+  }
