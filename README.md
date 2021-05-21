@@ -1,1 +1,1 @@
-# percentage-calculator
+# Marks Percentage Calculator Using JavaScript
