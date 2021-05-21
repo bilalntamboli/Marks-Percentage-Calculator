@@ -31,8 +31,7 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
     outline: none;
-    font-weight: 700;
-    font-size: larger;
+    font-size: 1.5rem;
     border-radius: 10px;
     
   }
@@ -48,14 +47,7 @@ input[type=text] {
     font-size: 1.2rem;
 }
 
-  input:hover{
-    background-color: rgba(115, 126, 125, 0.959);
-    color: black;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    
-  }
+ 
   form{
       border-style: solid;
       padding: 30px 13px 30px 15px;
@@ -69,12 +61,9 @@ input[type=text] {
       color: white;
       text-align: center;
       padding-bottom: 10px;
-      tex
+      text-decoration: none;
   }
-  footer:hover{
-      color: rgb(219, 181, 181);
-  }
-footer a:hover{
+  footer a:hover{
       color: rgb(219, 181, 181);
   }
   footer a{
