@@ -69,7 +69,16 @@ input[type=text] {
       color: white;
       text-align: center;
       padding-bottom: 10px;
+      tex
   }
   footer:hover{
       color: rgb(219, 181, 181);
+  }
+footer a:hover{
+      color: rgb(219, 181, 181);
+  }
+  footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+
   }
